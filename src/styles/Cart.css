@@ -1,3 +1,4 @@
+
 .lmj-cart {
 	color: white;
 	background-color: #31b572;
@@ -5,7 +6,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 200px;
+	width: 300px;
 	transition: 0.3s;
 	border-right: 3px solid black;
 }
@@ -17,7 +18,6 @@
 }
 
 .lmj-cart-toggle-button {
-	background: #31b572;
 	outline: none;
 	border: none;
 	font-weight: 600;
@@ -25,18 +25,22 @@
 	align-self: self-start;
 	padding: 0;
 	color: white;
+	align-self: flex-end;
 	transition: 0.3s;
-	border-radius: 10px;
 	padding: 10px;
+	background-color: black;
+	border-radius: 10px;
 }
 
 .lmj-cart-closed {
 	padding: 32px;
-	width: 200px;
+	width: 300px;
 	transition: 0.3s;
 	border-right: 3px solid black;
 }
 
 .lmj-cart-closed > button {
 	color: black;
+	transition: 0.3s;
+	background-color: #31b572;
 }
